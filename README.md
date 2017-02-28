@@ -2,6 +2,7 @@ Based on https://github.com/rootfs/install-glusterfs-on-fc21.
 But the original image can not be created anymore. So I used the binaries from Fedora24. 
 Finally, the image is minimized based on the wonderful work of github.com/larsks/dockerize.
 
+NOTE: Following text is from the original README.md on rootfs/install-glusterfs-on-fc21
 
 ## Background
 A Docker host (such as CoreOS and RedHat Atomic Host) usually is a minimal OS without Gluster client package. If you want to mount a Gluster filesystem, it is quite hard to do it on the host.
